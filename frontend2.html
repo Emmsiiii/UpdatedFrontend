@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/static/reminderstyle.css">
+</head>
+  
+<div class="header">
+  <a href="http://127.0.0.1:5500/template/frontend.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjiAHmNRRasCkVbiiDmpnWFvCkH-2mQCCpVcqArdJFSWZhBrpIgxZDUBW7t-D2vOCCTq0&usqp=CAU">
+<h3>Reminder system</h3>
+</div>
+<body>
+</div>
+</div>
+<div class="timeline">
+    <div class="container">
+      <div class="lines">
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+      </div>
+      <div class="cards">
+      {% for message in messages %}
+        <div class="card">
+          <h2>Dag {{message.day}}</h2>
+          <p>{{message.message}}</p>
+        </div>
+      {% endfor %} 
+            <div class="card">
+              <h2>Dag 2</h2>
+              <p> facilisis nulla non fel. Bibendum massa volutpat quis. Pellentesque porta risus vitae justo consectetur, ut molestie elit suscipi Quisque vehicula nibh sit amet erat pellentesque interdum. Suspendisse nec cursus odio. Praesent facilisis nulla non fel.   </p>
+            </div>
+            <div class="card">
+              <h2>Dag 2</h2>
+              <p> heheheheheheheheheheehehehahahahuahuhaua uhsuahsaaudhauhduhuashuddahdhadudhuudhaduda </p>
+            </div>
+           
+      </div>
+<div class="button">
+        <p> Tilmeld forsøgsperson til reminder system, ved at tilføje telefon nr.</p>
+        <form action="/sendSmsFlereGange/" method="post" id="form">
+          <input type="text" id="phoneNumber" name="telefon" placeholder="Indtast telefon nr.">
+          <div class="time">
+            <label for="time"> Indtast tid for reminder:</label>
+            <br>
+            <input type="time" id="start-dato" name="dato" required value="12:00"/><br>
+            </div>
+            <div class="date">
+            <label for="date"> Vælg dato for reminder:</label>
+            <br>
+            <input type="date" id="dates" name="date" required/>
+            </div>
+          <input onClick="sub" type="submit" id="btn-send" value="Send">
+        </form>
+    </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
