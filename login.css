@@ -7,7 +7,7 @@
 
 }
 body{
-    background-color: #b4b4b453;
+    background-color: #6767671e;
 }
 
  
@@ -24,21 +24,18 @@ body{
 #loginForm{
 height: 50%;
 width: 35%;
-display: block;
-padding-top: 50px;
+padding-top: 20px;
 font-size: 20px;
-padding-bottom: 60px;
 text-align: center;
-border-radius: 10px;
-border:10px;
-border-style: solid;
-border-width: 2px;
 text-decoration: none;
-margin-top: 13%;
-margin-left: 30%;
-margin-right: 30%;
+margin-top: 10%;
+display: block;
+margin-bottom: 100px;
 background-color: rgb(255, 255, 255);
-
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+border-radius: 4px;
+margin-left: 35%;
+margin-right: 30%;
 
 
 }
@@ -52,31 +49,73 @@ background-color: rgb(255, 255, 255);
 }
 #loginForm input{
     margin: 0 auto 20px;
-    display: block;
     text-align: center;
-    padding: 15px;
-    width: 40%;
-    height:30%;
+    padding: 10px;
+    width: 150px;
+    height:30px;
     border-radius: 10px;
     font-size: 14px;
+    display: block;
+
 
 } 
-#loginForm button{
+#login{
 color: white;
-cursor: pointer;
-text-align: center;
-font-size: 15px;
-width: 30%;
-padding: 10px 10px;
-background-color: darkcyan;
-color: white;
-margin: 10px 0;
-border: 2px solid;
 border-radius: 20px;
+margin-bottom: 30px;
+text-align: center;
+display: inline-block;
+height:45px;
+width: 100px;
+background-color: darkcyan;
 margin-top: 10px;
+border: 2px solid;
+border-color: white;
+font-size: 15px;
+
+
+
+
 }
+
+#signup{
+color: white;
+text-align: center;
+border-radius: 20px;
+display: block;
+height:45px;
+width: 100px;
+margin-bottom: 30px;
+background-color: darkcyan;
+border: 2px solid;
+border-color: white;
+font-size: 15px;
+
+
+}
+
+#signup:hover{
+ background-color: rgb(202, 193, 211);
+}
+#login:hover{
+background-color: rgb(202, 193, 211);
+
+}
+
+.buttons {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+
+}
+
 #loginForm p{
-    padding-bottom: 2px;
-    margin-bottom: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
     font-size: 20px;
+    text-align: center;
+    display: block; 
+  
+
 }
