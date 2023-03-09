@@ -15,11 +15,15 @@
 <form action id="loginForm">
   <p> Backoffice cheatsheet</p>
     <p> Log ind</p>
-    <input name="email" type="email" placeholder="example@mail.com" required id="email">
-    <input name="password" type="password" placeholder="Enter password" required id="password">
+    <input name="email" type="email" placeholder="example@mail.com" required id="email" autocomplete="on">
+    <input name="password" type="password" placeholder="Indtast password" required id="password" autocomplete="on">
     <div class="buttons">
-    <button type="submit" value="Login" id="login">Login</button>
-    <button type="submit" value="Sign up" id="signup">Sign up</button>
+    <button type="submit" value="Login" id="login">Log in
+    </button>
+    <button type="submit" value="Sign up" id="signup">
+      <a href="http://127.0.0.1:5500/template/signup.html"> Sign up</a>
+    </button>
+
   </div>
     
   </form>
