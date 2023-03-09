@@ -7,7 +7,7 @@
 
 }
 body{
-    background-color: #6767671e;
+    background-color: #dccdcd6a;
 }
 
  
@@ -51,23 +51,24 @@ margin-right: 30%;
     margin: 0 auto 20px;
     text-align: center;
     padding: 10px;
-    width: 150px;
+    width: 170px;
     height:30px;
     border-radius: 10px;
     font-size: 14px;
     display: block;
+    font-family: 'Courier New', Courier, monospace;
 
 
 } 
 #login{
-color: white;
+color: rgb(255, 255, 255);
 border-radius: 20px;
 margin-bottom: 30px;
 text-align: center;
 display: inline-block;
 height:45px;
-width: 100px;
-background-color: darkcyan;
+width: 130px;
+background-color: #609DA8;
 margin-top: 10px;
 border: 2px solid;
 border-color: white;
@@ -78,27 +79,13 @@ font-size: 15px;
 
 }
 
-#signup{
-color: white;
-text-align: center;
-border-radius: 20px;
-display: block;
-height:45px;
-width: 100px;
-margin-bottom: 30px;
-background-color: darkcyan;
-border: 2px solid;
-border-color: white;
-font-size: 15px;
 
-
-}
 
 #signup:hover{
- background-color: rgb(202, 193, 211);
+ background-color: rgb(233, 230, 236);
 }
 #login:hover{
-background-color: rgb(202, 193, 211);
+background-color: rgb(233, 230, 236);
 
 }
 
@@ -117,5 +104,25 @@ background-color: rgb(202, 193, 211);
     text-align: center;
     display: block; 
   
+
+}
+#signup{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+    height:45px;
+    width: 100px;
+    margin-bottom: 40px;
+    background-color: #609DA8;
+    border: 2px solid;
+    border-color: white;
+    font-size: 15px;
+    margin-left: 15px;
+    
+    
+    }
+#signup a{
+color: white;
 
 }
