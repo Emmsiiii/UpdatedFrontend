@@ -3,14 +3,17 @@
 <head>
   <link rel="stylesheet" href="/static/reminderstyle.css">
 </head>
-  
-<div class="header">
-  <a href="http://127.0.0.1:5500/template/frontend.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjiAHmNRRasCkVbiiDmpnWFvCkH-2mQCCpVcqArdJFSWZhBrpIgxZDUBW7t-D2vOCCTq0&usqp=CAU">
-<h3>Reminder system</h3>
-</div>
 <body>
-</div>
-</div>
+
+  <header>
+    <div class="headnav">
+      <img src="https://frskngnu.cdn.bubble.io/f1625476658887x379316550179364030/ForskningNu_site-fulllogo.svg">
+        <a href="http://127.0.0.1:5500/template/frontend.html">Hjem</a>
+        <a href="http://127.0.0.1:5500/template/frontend2.html">Reminder system</a>
+        <a href="http://127.0.0.1:5500/template/mailscraper.html" id="mail">Mail scraper</a>
+    </div>
+</header>
+
 <div class="timeline">
     <div class="container">
       <div class="lines">
@@ -37,6 +40,7 @@
         <div class="dot"></div>
         <div class="line"></div>
       </div>
+
       <div class="cards">
       {% for message in messages %}
         <div class="card">
@@ -68,7 +72,7 @@
             <br>
             <input type="date" id="dates" name="date" required/>
             </div>
-          <input onClick="sub" type="submit" id="btn-send" value="Send">
+            <button type="submit" value="Send" id="btn-send"> Send</button>
         </form>
     </div>
     </div>
