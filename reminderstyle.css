@@ -133,20 +133,18 @@ margin: 10px 0;
 border: 2px solid;
 border-radius: 25px;
 margin-top: 40px;
-
-
 }
 
-
 #btn-send:hover{
-background-color: rgb(154, 204, 151);
+background-color:#75A895 ;
+
 }
 .button{
 margin-right: 10%;
 text-align: center;
 border-radius: 8px;
 border:2px;
-border-color:  #D1D6E6;
+border-color:#dfe1e9;
 border-style: solid;
 border-width: 5px 5px;
 padding-left: 40px;
@@ -156,9 +154,9 @@ padding-bottom: 20px;
 height: 30%;
 margin-left: 10%;
 background-color:white;
-
-
 }
+
+
 #form{
 color: #2B2862;
 font-size: 20px;
@@ -169,8 +167,8 @@ display: block;
 
 }
 #form input{
-  font-size: 15px;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
 }
 
 
@@ -239,5 +237,5 @@ margin-left: 60px;
 }
 
 .headnav a:hover{
-color: var(--check);
+color: rgb(224, 220, 220);
 }
